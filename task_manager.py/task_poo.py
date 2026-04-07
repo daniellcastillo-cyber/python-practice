@@ -72,7 +72,7 @@ def main():
 
             if option1 == 5:
                 print("Exiting system... ")
-                return
+                break
             elif option1 == 1:
                 title = input("Enter task title: ")
                 description = input("Enter task description: ")
